@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jastip XYZ - Layanan Jasa Titip Aman & Terpercaya</title>
+    <meta name="description" content="Titip belanja dari luar negeri jadi lebih mudah. Kami menyediakan jasa titip produk dari berbagai negara dengan proses cepat dan aman.">
 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Jastip XYZ Logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#cara-kerja">Cara Kerja</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#form-pemesanan">Titip</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Titip belanja dari luar negeri jadi lebih mudah.</h1>
+                <p>Kami bantu belikan barang impian Anda dari mana saja, proses cepat dan aman.</p>
+                <a href="#form-pemesanan" class="cta-button">Titip Sekarang</a>
+            </div>
+        </section>
+
+        <section id="cara-kerja" class="cara-kerja-section">
+            <div class="container">
+                <h2>Cara Kerja</h2>
+                <div class="steps-grid">
+                    <div class="step">
+                        <h3>1. Titip Produk</h3>
+                        <p>Isi form pemesanan dengan detail barang impian Anda.</p>
+                    </div>
+                    <div class="step">
+                        <h3>2. Proses Pembelian</h3>
+                        <p>Kami akan konfirmasi pesanan dan memproses pembelian untuk Anda.</p>
+                    </div>
+                    <div class="step">
+                        <h3>3. Barang Sampai</h3>
+                        <p>Barang akan dikirim langsung ke alamat Anda dengan aman.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produk" class="produk-section">
+            <div class="container">
+                <h2>Produk Populer</h2>
+                <p class="subtitle">Lihat beberapa barang yang paling sering dititip.</p>
+                <div class="produk-grid">
+                    <div class="produk-item">
+                        <img src="assets/produk-1.jpg" alt="Tas Branded Mewah">
+                        <div class="produk-info">
+                            <h4>Tas Branded</h4>
+                            <p>Tersedia dari berbagai merek.</p>
+                        </div>
+                    </div>
+                    <div class="produk-item">
+                        <img src="assets/produk-2.jpg" alt="Sepatu Sneakers Edisi Terbatas">
+                        <div class="produk-info">
+                            <h4>Sneakers</h4>
+                            <p>Edisi terbatas dan sulit ditemukan.</p>
+                        </div>
+                    </div>
+                    <div class="produk-item">
+                        <img src="assets/produk-3.jpg" alt="Skincare dari Korea">
+                        <div class="produk-info">
+                            <h4>Skincare Korea</h4>
+                            <p>Rangkaian lengkap produk kecantikan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form-pemesanan" class="form-pemesanan-section">
+            <div class="container">
+                <h2>Titip Sekarang!</h2>
+                <p>Isi detail di bawah ini dan dapatkan balasan cepat via WhatsApp.</p>
+                <form id="jastip-form">
+                    <input type="text" name="nama" placeholder="Nama Lengkap" required>
+                    <input type="text" name="produk" placeholder="Nama Produk (cth: Nike Air Jordan)" required>
+                    <input type="url" name="link" placeholder="Link Produk (cth: amazon.com/produk)">
+                    <input type="number" name="jumlah" placeholder="Jumlah Produk" min="1" required>
+                    <textarea name="catatan" rows="3" placeholder="Catatan Tambahan (opsional)"></textarea>
+                    <button type="submit" class="cta-button">Titip via WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="testimoni" class="testimoni-section">
+            <div class="container">
+                <h2>Apa Kata Mereka?</h2>
+                <div class="testimoni-item">
+                    <p>"Layanan jastipnya sangat profesional, respon cepat, dan barang sampai tepat waktu. Rekomendasi banget!"</p>
+                    <span>- Naila, Bandung</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kontak">
+        <div class="container">
+            <div class="footer-info">
+                <img src="assets/logo.png" alt="Jastip XYZ Logo">
+                <p>Layanan jasa titip terpercaya, cepat, dan aman.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Hubungi Kami</h4>
+                <ul>
+                    <li><a href="https://wa.me/628123456789" target="_blank">WhatsApp</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="mailto:info@jastipxyz.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
