@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const catatan = document.querySelector('textarea[name="catatan"]').value;
 
         // Buat pesan WhatsApp
-        const message = `Halo Jastip XYZ, saya ingin titip produk:%0A%0A*Nama:* ${nama}%0A*Produk:* ${produk}%0A*Jumlah:* ${jumlah}%0A*Link Produk:* ${link || 'Tidak ada link'}%0A*Catatan:* ${catatan || 'Tidak ada catatan'}`;
+        const message = `Halo JEJASTIP, saya ingin titip produk:%0A%0A*Nama:* ${nama}%0A*Produk:* ${produk}%0A*Jumlah:* ${jumlah}%0A*Link Produk:* ${link || 'Tidak ada link'}%0A*Catatan:* ${catatan || 'Tidak ada catatan'}`;
 
         // Ganti nomor telepon dengan nomor WhatsApp Anda (format internasional, tanpa tanda +)
-        const phoneNumber = '628123456789';
+        const phoneNumber = '6282287779321';
 
         // Buat URL WhatsApp
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
